@@ -15,52 +15,65 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
-    width: auto;
     font-weight: 300;
     display: block;
     position: relative;
 }
 
-/* start header elements */
-header {
+.default-tag-structure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     position: relative;
     flex-wrap: wrap;
-    padding-bottom: 30px;
     border-bottom: 1px solid var(--text-color);
+    margin-bottom: 200px;
+    justify-content: center;
 }
 
-h1 {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    text-align: center;
-    font-size: 2.5rem;
-    border-bottom: 1px solid;
+main.default-tag-structure {
+    margin-bottom: 0px;
 }
 
-/* Image */
+article.default-tag-structure {
+    border-bottom: none;
+}
+
+footer.default-tag-structure {
+    margin: 50px 0px 50px 0px;
+    border-bottom: none;
+}
+
+/* header image class */
 .headShot {
     height: 300px;
     width: auto;
 }
 
-.subheader {
+/* text elements */
+h1 {
+    font-size: 2.5rem;
+    padding: 0px 4px 0px 4px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+p {
     text-align: center;
-    margin: 10px 30px 30px 30px;
-    padding: 10px 5px 0px 5px;
+    margin: 10px 50px 30px 50px;
     font-size: 1.6rem;
     line-height: 2.6rem;
     border-bottom: 1px solid var(--text-color);
 }
 
+p.article-text {
+    margin: 50px 50px 0px 50px;
+    font-size: 1.3rem;
+}
+
 /* header lists */
 .link-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .link-list li {
@@ -72,16 +85,17 @@ h1 {
     border-right: 1px solid var(--link-border-color);
     margin: 15px;
     text-align: center;
+    box-shadow: 1px 1px 5px #000;
+    /* box-shadow: 3px 3px 0px #000; */
+
 }
 
 .link-list li a {
     color: var(--link-border-color);
-    padding: 0px;
     font-size: 1.6rem;
     font-weight: 400;
     text-decoration: none;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    border-bottom: 1px dashed var(--link-border-color);
 }
 
 .link-list li:hover {
@@ -90,49 +104,15 @@ h1 {
 /* End header Elements */
 
 /* start main element styles */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-    padding-bottom: 30px;
-    border-bottom: 1px solid var(--text-color);
 
+footer.main-section {
+    margin-bottom: 0px;
+    border: none;
 }
-
-.main-section {
-    padding: 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px 0px 100px 0px;
-}
-
-.main-section h1 {
-    justify-content:space-evenly;
-    margin: 0px;
-    padding: 0px 4px 0px 4px;
-    border-bottom: 1px solid var(--text-color);
-}
-
-.main-section p {
-    margin: 50px;
-    font-size: 1.3rem;
-    padding: 0px 0px 3px 0px;
-    border-bottom: 1px solid;
-}
-
 
 /* Media Queries */
 @media screen and (max-width: 470px) {
     .link-list {
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 800px) {
-
 }
