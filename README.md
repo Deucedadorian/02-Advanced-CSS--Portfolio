@@ -36,6 +36,8 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Screenshots
 
+![Screenshot of deployed app](assets/images/screenshot.png)
+
 ## License
 
 MIT License
