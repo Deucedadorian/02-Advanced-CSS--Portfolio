@@ -24,6 +24,8 @@ The Icons in the "Contact Me" section are clickable and, when clicked, will take
 
 Icons made by Freepik from https://www.flaticon.com/
 
+YouTube, Patreon, and Magic Sea Weed, which I used as placeholders, are not created by me.
+
 ### resets
 
 https://meyerweb.com/eric/tools/css/reset/
