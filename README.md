@@ -38,7 +38,7 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Screenshots
 
-![Screenshot of deployed app](.\assets\images\deucedadorian.github.io_Portfolio_.png)
+![Screenshot of deployed app](./assets/images/deucedadorian.github.io_Portfolio_.png)
 
 ## License
 
