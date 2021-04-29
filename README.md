@@ -6,7 +6,7 @@ This is my portfolio. My motivation for creating this portfolio was to have a pl
 
 ## Link to Deployed Site
 
-https://deucedadorian.github.io/02-Advanced-CSS--Portfolio/
+https://deucedadorian.github.io/Portfolio/
 
 ## Table of Contents
 - [Usage](#usage)
@@ -38,7 +38,7 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Screenshots
 
-![Screenshot of deployed app](assets/images/deucedadorian.github.io_02-Advanced-CSS--Portfolio_.png)
+![Screenshot of deployed app](.\assets\images\deucedadorian.github.io_Portfolio_.png)
 
 ## License
 
