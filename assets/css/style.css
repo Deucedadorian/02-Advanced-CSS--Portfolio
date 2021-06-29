@@ -29,6 +29,7 @@ body {
     border-bottom: 1px solid var(--text-color);
     margin-bottom: 200px;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 /* header styling */
@@ -108,12 +109,6 @@ footer.default-tag-structure {
     width: 550px;
     box-shadow: 0px 30px 30px #000;
     margin: 50px 30px 0px 30px;
-}
-
-.project-images-container .project-images {
-    margin: 0px 10px 0px 10px;
-    height: auto;
-    width: 250px;
 }
 
 .project-title {
@@ -227,7 +222,7 @@ footer.main-section {
     }
 
     .project-images-container .project-images {
-        width: 200px;
+        width: 270px;
     }
 
     .contact-icons-list {
